@@ -7,9 +7,14 @@ public class Task005_Ifelse{
         Scanner input = new Scanner(System.in);
         int s1,s2,s3;
 
+        System.out.println("Enter Side of the Triangle");
         s1= input.nextInt();
-        s2= Integer.parseInt(args[1]);
-        s3= Integer.parseInt(args[2]);
+
+        System.out.println("Enter Side of the Triangle");
+        s2= input.nextInt();
+
+        System.out.println("Enter Side of the Triangle");
+        s3= input.nextInt();
 
         if(s1==s2 && s2==s3){
             System.out.println("It is an Equlatoral Traingle");
