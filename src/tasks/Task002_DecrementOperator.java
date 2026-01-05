@@ -2,7 +2,7 @@ package tasks;
 
 public class Task002_DecrementOperator {
     public static void main(String[] args) {
-        int a= 10;
+        int a= Integer.parseInt(args[0]);
         int b= a-- - --a + a--;
         int c= a++ + a--;
 
