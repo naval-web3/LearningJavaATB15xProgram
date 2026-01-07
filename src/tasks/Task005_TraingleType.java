@@ -8,7 +8,7 @@ isosceles (exactly two sides are equal), or scalene (no sides are equal).
 Use an if-else statement to classify the triangle.*/
 
 
-public class Task005_Ifelse{
+public class Task005_TraingleType {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
         int s1,s2,s3;
