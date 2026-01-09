@@ -8,13 +8,19 @@ class Lab004_ForLoop{
         System.out.println("Welcome to Factorial program");
         System.out.print("Enter a Number:");
 
-        int n= input.nextInt();
-        int fact= 1;
+        if(input.hasNextInt()) {
+            int n = input.nextInt();
+            long fact = 1;
 
-        for(int i=n; i>0; i--){
-            fact= fact * i;
+            for (int i = n; i > 0; i--) {
+                fact = fact * i;
+            }
+
+            System.out.printf("%d!= %d", n, fact);
         }
-
-        System.out.printf("%d!= %d", n, fact);
+        else{
+            System.out.println("Invalid Input");
+        }
+        input.close();
     }
 }
